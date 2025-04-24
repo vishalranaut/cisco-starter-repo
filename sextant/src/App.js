@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./components/Banner";
 import Exhibit from "./components/Exhibit";
 import PublicIP from "./components/PublicIP";
+import PacketLatency from "./components/PacketLatency";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </Exhibit>
       <Exhibit title="Public IP Address">
         <PublicIP />
+      </Exhibit>
+      <Exhibit title="Packet Latency">
+        <PacketLatency />
       </Exhibit>
     </div>
   );
